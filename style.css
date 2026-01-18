@@ -4,7 +4,29 @@ section{
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
 .nav-btn{
     background: linear-gradient(90deg,rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
+
+}
+
+
+/* hero-section */
+
+.hero-section{
+    background-image: url("./images/hero-bg.png");
+}
+.hero-img{
+    background-image: url("./images/hero-circle.png");
+    
+    
+}
+
+.hero-btn{
+    background:  linear-gradient(90deg,rgba(247, 190, 0, 1) 0%, rgba(251, 9, 223, 1) 51%, rgba(145, 0, 248, 1) 100%);
 
 }
