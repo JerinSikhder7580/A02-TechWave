@@ -30,3 +30,8 @@ section{
     background:  linear-gradient(90deg,rgba(247, 190, 0, 1) 0%, rgba(251, 9, 223, 1) 51%, rgba(145, 0, 248, 1) 100%);
 
 }
+
+
+.techwave-card{
+    background: rgba(53, 17, 101, 0.4);
+}
