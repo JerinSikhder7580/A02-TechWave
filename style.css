@@ -19,12 +19,35 @@ section{
 
 .hero-section{
     background-image: url("./images/hero-bg.png");
+    padding-top: px;
 }
 .hero-img{
     background-image: url("./images/hero-circle.png");
     
     
+    
 }
+.new-btn{
+    box-shadow:0 3px 27px rgba(0, 255, 136, 0.5);
+    top: 20px;
+    right: 760px;
+    animation: pulse 2.5s infinite;
+    
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    80%{
+        transform: rotate(360deg);
+    }
+    
+}
+
 
 .hero-btn{
     background:  linear-gradient(90deg,rgba(247, 190, 0, 1) 0%, rgba(251, 9, 223, 1) 51%, rgba(145, 0, 248, 1) 100%);
@@ -34,4 +57,13 @@ section{
 
 .techwave-card{
     background: rgba(53, 17, 101, 0.4);
+}
+
+.host-card{
+    background: rgba(53, 17, 101, 0.4);
+}
+
+footer{
+    background-image: url("./images/footer-bg.png");
+    
 }
