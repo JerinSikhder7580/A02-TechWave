@@ -1,75 +1,85 @@
-section{
-    
+section {
+
     max-width: 1200px;
     margin: auto;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 
 .inter {
-  font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 }
-.nav-btn{
-    background: linear-gradient(90deg,rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
 
+.nav-btn {
+    background: linear-gradient(90deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
+
+}
+.nav-img{
+    display: none;
 }
 
 
 /* hero-section */
 
-.hero-section{
+.hero-section {
     background-image: url("./images/hero-bg.png");
-    
+
 }
 
-.hero-img{
+.hero-img {
     background-image: url("./images/hero-circle.png");
-    
-    
-    
+
+
+
 }
-.new-btn{
-    box-shadow:0 3px 27px rgba(0, 255, 136, 0.5);
+
+.new-btn {
+    box-shadow: 0 3px 27px rgba(0, 255, 136, 0.5);
     top: 20px;
-    right: 760px;
+    right: 835px;
     animation: pulse 2.5s infinite;
-    
+
 }
+
 @keyframes pulse {
     0% {
         transform: scale(1);
 
     }
+
     50% {
         transform: scale(1.1);
     }
-    80%{
+
+    80% {
         transform: rotate(360deg);
     }
-    
-}
-
-
-.hero-btn{
-    background:  linear-gradient(90deg,rgba(247, 190, 0, 1) 0%, rgba(251, 9, 223, 1) 51%, rgba(145, 0, 248, 1) 100%);
 
 }
 
 
-.techwave-card{
+.hero-btn {
+    background: linear-gradient(90deg, rgba(247, 190, 0, 1) 0%, rgba(251, 9, 223, 1) 51%, rgba(145, 0, 248, 1) 100%);
+
+}
+
+
+.techwave-card {
     background: rgba(53, 17, 101, 0.4);
 }
 
-.host-card{
+.host-card {
     background: rgba(53, 17, 101, 0.4);
 }
 
-footer{
+footer {
     background-image: url("./images/footer-bg.png");
-    
+
 }
-.hide{
+
+.hide {
     visibility: hidden;
 }
 
@@ -79,74 +89,90 @@ footer{
 
 @media screen and (max-width :576px) {
 
-    .header ul li,.nav-btn{
+    .header ul li,
+    .nav-btn {
         display: none;
     }
+
     
-    .about-section{
+
+    .about-section {
         padding-top: 40px;
     }
-    .about-section p{
+
+    .about-section p {
         width: 400px;
         margin: auto;
         margin-bottom: 40px;
     }
 
-    .number-section{
+    .number-section {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         margin-left: 110px;
+        font-weight: bold;
     }
 
 
-    .choose-techwave{
+    .choose-techwave {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         padding: 20px;
-        
+
     }
-    .new-btn{
-       position: absolute;
-       top: 10px;
-       right: 180px;
+
+    .new-btn {
+        position: absolute;
+        top: 10px;
+        right: 180px;
     }
-    .choose-techwave .card{
+
+    .choose-techwave .card {
         width: 535px;
-        
+
     }
-    .feature-episode{
+
+    .feature-episode {
         display: grid;
-        grid-template-columns: repeat(1,fr);
+        grid-template-columns: repeat(1, fr);
         padding: 0 20px;
-        
+
     }
-    .feature-card iframe{
+
+    .feature-card iframe {
         width: 100%;
     }
-    .feature-card p{
+
+    .feature-card p {
         width: 100%;
     }
-    
-    .host-section{
+
+    .host-section {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         padding: 20px 20px;
         width: 535px;
         margin: auto;
         text-align: center;
-      
-        
+
+
     }
-    .host-section img{
+    .host-icon{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .host-section img {
         margin: auto;
-        
+
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 355px;
+        margin: auto;
+
     }
     
-    .footer{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        width: 355px;
-        margin: auto;
-       
-    }
 }
