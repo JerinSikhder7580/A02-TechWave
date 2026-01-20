@@ -1,5 +1,6 @@
 section {
 
+    padding: 0 20px;
     max-width: 1200px;
     margin: auto;
 }
@@ -77,7 +78,9 @@ section {
 footer {
     background-image: url("./images/footer-bg.png");
 
+
 }
+
 
 .hide {
     visibility: hidden;
@@ -94,8 +97,13 @@ footer {
         display: none;
     }
 
+    .nav-img{
+        display: block;
+        width: 24px;
+    }
     
 
+    
     .about-section {
         padding-top: 40px;
     }
@@ -115,7 +123,7 @@ footer {
 
 
     .choose-techwave {
-        display: grid;
+       gap: 0;
         grid-template-columns: repeat(1, 1fr);
         padding: 20px;
 
@@ -128,7 +136,7 @@ footer {
     }
 
     .choose-techwave .card {
-        width: 535px;
+        width: 100%;
 
     }
 
@@ -166,6 +174,7 @@ footer {
         margin: auto;
 
     }
+    /* footer */
 
     .footer {
         display: grid;
@@ -173,6 +182,13 @@ footer {
         max-width: 355px;
         margin: auto;
 
+    }
+
+    footer .footer-bg{
+        background-image: url("./images/Image.png");
+    }
+    .footer-2{
+        margin: auto;
     }
     
 }
