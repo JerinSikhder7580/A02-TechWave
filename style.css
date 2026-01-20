@@ -1,4 +1,5 @@
 section{
+    
     max-width: 1200px;
     margin: auto;
 }
@@ -19,8 +20,9 @@ section{
 
 .hero-section{
     background-image: url("./images/hero-bg.png");
-    padding-top: px;
+    
 }
+
 .hero-img{
     background-image: url("./images/hero-circle.png");
     
@@ -66,4 +68,85 @@ section{
 footer{
     background-image: url("./images/footer-bg.png");
     
+}
+.hide{
+    visibility: hidden;
+}
+
+
+/* responssive  */
+
+
+@media screen and (max-width :576px) {
+
+    .header ul li,.nav-btn{
+        display: none;
+    }
+    
+    .about-section{
+        padding-top: 40px;
+    }
+    .about-section p{
+        width: 400px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .number-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 110px;
+    }
+
+
+    .choose-techwave{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+        
+    }
+    .new-btn{
+       position: absolute;
+       top: 10px;
+       right: 180px;
+    }
+    .choose-techwave .card{
+        width: 535px;
+        
+    }
+    .feature-episode{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+        padding: 0 20px;
+        
+    }
+    .feature-card iframe{
+        width: 100%;
+    }
+    .feature-card p{
+        width: 100%;
+    }
+    
+    .host-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px 20px;
+        width: 535px;
+        margin: auto;
+        text-align: center;
+      
+        
+    }
+    .host-section img{
+        margin: auto;
+        
+    }
+    
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 355px;
+        margin: auto;
+       
+    }
 }
